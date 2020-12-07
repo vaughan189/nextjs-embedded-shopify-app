@@ -1,0 +1,43 @@
+{
+  "name": "react-embedded-shopify-app",
+  "version": "1.0.0",
+  "description": "Shopify App with Node and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaughan189/nextjs-embedded-shopify-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaughan189/nextjs-embedded-shopify-app/issues"
+  },
+  "homepage": "https://github.com/vaughan189/nextjs-embedded-shopify-app#readme",
+  "dependencies": {
+    "@shopify/app-bridge-react": "^1.19.0",
+    "@shopify/koa-shopify-auth": "^3.1.57",
+    "@shopify/koa-shopify-graphql-proxy": "^3.3.0",
+    "@shopify/polaris": "^4.16.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.7",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.6.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^5.13.1",
+    "next": "^9.3.0",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.0",
+    "react-apollo": "^3.1.3",
+    "react-dom": "^16.13.0",
+    "store-js": "^2.0.4"
+  }
+}
